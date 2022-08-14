@@ -1,0 +1,1 @@
+{"version":3,"file":"packer.js","names":[],"sources":["../../../src/types/packer.ts"],"sourcesContent":["export interface Pointer {\n  position: number;\n  pointer: number;\n}\n\nexport interface PackState {\n  staticBuffer: Uint8Array;\n  dynamicBuffer: Uint8Array;\n  pointers: Pointer[];\n}\n"],"mappings":""}
